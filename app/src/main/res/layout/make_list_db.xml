@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Number of List(1 to 9):" />
+
+        <EditText
+            android:layout_width="30dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/listNumberDb"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Group Name:" />
+
+        <EditText
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/groupNameDb"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="MakeList"
+            android:text="OK"
+            android:id="@+id/okBtnDb"/>
+
+    </LinearLayout>
+
+    <EditText android:layout_width="100dp" android:layout_height="wrap_content" android:id="@+id/etdb1" android:visibility="invisible"/>
+    <EditText android:layout_width="100dp" android:layout_height="wrap_content" android:id="@+id/etdb2" android:visibility="invisible"/>
+    <EditText android:layout_width="100dp" android:layout_height="wrap_content" android:id="@+id/etdb3" android:visibility="invisible"/>
+    <EditText android:layout_width="100dp" android:layout_height="wrap_content" android:id="@+id/etdb4" android:visibility="invisible"/>
+    <EditText android:layout_width="100dp" android:layout_height="wrap_content" android:id="@+id/etdb5" android:visibility="invisible"/>
+    <EditText android:layout_width="100dp" android:layout_height="wrap_content" android:id="@+id/etdb6" android:visibility="invisible"/>
+    <EditText android:layout_width="100dp" android:layout_height="wrap_content" android:id="@+id/etdb7" android:visibility="invisible"/>
+    <EditText android:layout_width="100dp" android:layout_height="wrap_content" android:id="@+id/etdb8" android:visibility="invisible"/>
+    <!--<EditText android:layout_width="100dp" android:layout_height="wrap_content" android:id="@+id/etdb9" android:visibility="invisible"/>-->
+    <!--<EditText android:layout_width="100dp" android:layout_height="wrap_content" android:id="@+id/et10" android:visibility="invisible"/>-->
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="SendList"
+        android:text="OK"
+        android:id="@+id/okBtnDb2"
+        android:visibility="invisible"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="goBack"
+        android:text="Go Back"
+        android:id="@+id/backBtndb" />
+
+
+</LinearLayout>

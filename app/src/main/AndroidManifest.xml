@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.administrator.DataCollectionAndAnalysis">
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="com.example.administrator.DataCollectionAndAnalysis.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name="com.example.administrator.DataCollectionAndAnalysis.ButtonListDb" />
+        <activity android:name="com.example.administrator.DataCollectionAndAnalysis.MakeListinDb"/>
+        <activity android:name="com.example.administrator.DataCollectionAndAnalysis.ButtonList"/>
+        <activity android:name="com.example.administrator.DataCollectionAndAnalysis.MakeList"/>
+        <activity android:name="com.example.administrator.DataCollectionAndAnalysis.TableVIew"/>
+        <activity android:name="com.example.administrator.DataCollectionAndAnalysis.BarView"/>
+        <activity android:name="com.example.administrator.DataCollectionAndAnalysis.BarViewDb"/>
+        <activity android:name="com.example.administrator.DataCollectionAndAnalysis.PieView"/>
+        <activity android:name="com.example.administrator.DataCollectionAndAnalysis.PieViewDb"/>
+        <activity android:name="com.example.administrator.DataCollectionAndAnalysis.LineView"/>
+        <activity android:name="com.example.administrator.DataCollectionAndAnalysis.LineViewDb"/>
+        <activity android:name="com.example.administrator.DataCollectionAndAnalysis.TableViewDb"/>
+        <activity android:name="com.example.administrator.DataCollectionAndAnalysis.Synchronization"/>
+        <activity android:name="com.example.administrator.DataCollectionAndAnalysis.DbActivity"/>
+    </application>
+
+</manifest>

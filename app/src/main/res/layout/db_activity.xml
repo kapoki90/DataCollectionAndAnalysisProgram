@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.administrator.DataCollectionAndAnalysis.MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Database Version"
+        android:gravity="center_horizontal"/>
+
+    <Button
+        android:id="@+id/btnDb1"
+        android:onClick="viewActivity2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="1. Make List" />
+    <Button
+        android:id="@+id/btnDb2"
+        android:onClick="viewActivity2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="2. Enter Data" />
+    <Button
+        android:id="@+id/btnDb3"
+        android:onClick="viewActivity2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="3. Show List View" />
+    <Button
+        android:id="@+id/btnDb4"
+        android:onClick="viewActivity2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="4. Show Bar View" />
+    <Button
+        android:id="@+id/btnDb5"
+        android:onClick="viewActivity2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="5. Show Pie View" />
+    <Button
+        android:id="@+id/btnDb6"
+        android:onClick="viewActivity2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="6. Show Line View" />
+    <Button
+        android:id="@+id/btnDb7"
+        android:onClick="viewActivity2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Synchronization" />
+    <Button
+        android:id="@+id/btnDb8"
+        android:onClick="goBack"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Go to Offline Version" />
+</LinearLayout>

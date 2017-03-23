@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/button_list"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:rowCount="5"
+    android:columnCount="1">
+    <TextView android:text="select Group Name"/>
+    <Spinner
+        android:id="@+id/spinnerDb1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <GridLayout
+        android:orientation="vertical"
+        android:columnCount="2"
+        android:rowCount="1">
+
+
+        <GridLayout
+            android:orientation="vertical"
+            android:columnCount="1"
+            android:rowCount="9">
+            <Button android:layout_width="wrap_content" android:layout_height="45dp" android:text="green" android:onClick="increaseCount" android:layout_marginBottom="3dp"
+                android:id="@+id/myBtnDb1" android:background="#008000" android:textColor="@android:color/white" android:visibility="invisible"/>
+
+            <Button android:layout_width="wrap_content" android:layout_height="45dp" android:text="green" android:onClick="increaseCount" android:layout_marginBottom="3dp"
+                android:id="@+id/myBtnDb2" android:background="#008000" android:textColor="@android:color/white" android:visibility="invisible" android:layout_below="@+id/myBtn1"/>
+
+            <Button android:layout_width="wrap_content" android:layout_height="45dp" android:text="green" android:onClick="increaseCount" android:layout_marginBottom="3dp"
+                android:id="@+id/myBtnDb3" android:background="#008000" android:textColor="@android:color/white" android:visibility="invisible" android:layout_below="@+id/myBtn1"/>
+
+            <Button android:layout_width="wrap_content" android:layout_height="45dp" android:text="green" android:onClick="increaseCount" android:layout_marginBottom="3dp"
+                android:id="@+id/myBtnDb4" android:background="#008000" android:textColor="@android:color/white" android:visibility="invisible" android:layout_below="@+id/myBtn3"/>
+
+            <Button android:layout_width="wrap_content" android:layout_height="45dp" android:text="green" android:onClick="increaseCount" android:layout_marginBottom="3dp"
+                android:id="@+id/myBtnDb5" android:background="#008000" android:textColor="@android:color/white" android:visibility="invisible"/>
+
+            <Button android:layout_width="wrap_content" android:layout_height="45dp" android:text="green" android:onClick="increaseCount" android:layout_marginBottom="3dp"
+                android:id="@+id/myBtnDb6" android:background="#008000" android:textColor="@android:color/white" android:visibility="invisible" android:layout_below="@+id/myBtn1"/>
+
+            <Button android:layout_width="wrap_content" android:layout_height="45dp" android:text="green" android:onClick="increaseCount" android:layout_marginBottom="3dp"
+                android:id="@+id/myBtnDb7" android:background="#008000" android:textColor="@android:color/white" android:visibility="invisible" android:layout_below="@+id/myBtn2"/>
+
+            <Button android:layout_width="wrap_content" android:layout_height="45dp" android:text="green" android:onClick="increaseCount" android:layout_marginBottom="3dp"
+                android:id="@+id/myBtnDb8" android:background="#008000" android:textColor="@android:color/white" android:visibility="invisible" android:layout_below="@+id/myBtn3"/>
+
+<!--            <Button android:layout_width="wrap_content" android:layout_height="45dp" android:text="green" android:onClick="insert" android:layout_marginBottom="3dp"
+                android:id="@+id/myBtn9" android:background="#008000" android:textColor="@android:color/white" android:visibility="invisible" android:layout_below="@+id/myBtn3"/>-->
+            <!--    <Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="green" android:onClick="insert"
+                    android:id="@+id/myBtn10" android:background="#008000" android:textColor="@android:color/white" android:visibility="invisible"/>-->
+        </GridLayout>
+
+
+        <GridLayout
+            android:orientation="vertical"
+            android:columnCount="1"
+            android:rowCount="9">
+            <EditText
+                android:layout_width="100dp"
+                android:layout_height="47dp"
+                android:layout_marginBottom="3dp"
+                android:visibility="invisible"
+                android:id="@+id/etDb1"/>
+            <EditText
+                android:layout_width="100dp"
+                android:layout_height="47dp"
+                android:layout_marginBottom="3dp"
+                android:visibility="invisible"
+                android:id="@+id/etDb2"/>
+            <EditText
+                android:layout_width="100dp"
+                android:layout_height="47dp"
+                android:layout_marginBottom="3dp"
+                android:visibility="invisible"
+                android:id="@+id/etDb3"/>
+            <EditText
+                android:layout_width="100dp"
+                android:layout_height="47dp"
+                android:layout_marginBottom="3dp"
+                android:visibility="invisible"
+                android:id="@+id/etDb4"/>
+            <EditText
+                android:layout_width="100dp"
+                android:layout_height="47dp"
+                android:layout_marginBottom="3dp"
+                android:visibility="invisible"
+                android:id="@+id/etDb5"/>
+            <EditText
+                android:layout_width="100dp"
+                android:layout_height="47dp"
+                android:layout_marginBottom="3dp"
+                android:visibility="invisible"
+                android:id="@+id/etDb6"/>
+            <EditText
+                android:layout_width="100dp"
+                android:layout_height="47dp"
+                android:layout_marginBottom="3dp"
+                android:visibility="invisible"
+                android:id="@+id/etDb7"/>
+            <EditText
+                android:layout_width="100dp"
+                android:layout_height="47dp"
+                android:layout_marginBottom="3dp"
+                android:visibility="invisible"
+                android:id="@+id/etDb8"/>
+<!--            <EditText
+                android:layout_width="100dp"
+                android:layout_height="47dp"
+                android:layout_marginBottom="3dp"
+                android:visibility="invisible"
+                android:id="@+id/et9"/>-->
+        </GridLayout>
+
+    </GridLayout>
+
+
+    <GridLayout
+        android:orientation="vertical"
+        android:columnCount="2"
+        android:rowCount="1">
+        <Button
+            android:onClick="SendData"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/sendDataBtnDb"
+            android:text="SendData"/>
+
+        <Button
+            android:onClick="goBack"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/goBackBtnDb"
+            android:text="Go Back"/>
+    </GridLayout>
+</GridLayout>
